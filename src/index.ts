@@ -9,7 +9,9 @@ client.on("ready", () => {
 })
 
 client.on("message", (message) =>{
-    console.log(message.content)
+    message.attachments.array().forEach(element => {
+        console.log(element.attachment)
+    });
 })
 
 client.login(config.token);

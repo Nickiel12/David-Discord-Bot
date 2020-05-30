@@ -7,7 +7,9 @@ client.on("ready", function () {
     console.log("I'm connected!");
 });
 client.on("message", function (message) {
-    console.log(message.content);
+    message.attachments.array().forEach(function (element) {
+        console.log(element.attachment);
+    });
 });
 client.login(config.token);
 //# sourceMappingURL=index.js.map
