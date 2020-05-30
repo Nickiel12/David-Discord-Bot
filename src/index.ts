@@ -8,4 +8,8 @@ client.on("ready", () => {
     console.log("I'm connected!")
 })
 
+client.on("message", (message) =>{
+    console.log(message.content)
+})
+
 client.login(config.token);
