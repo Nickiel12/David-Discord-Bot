@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Nickiel12/David-Discord-Bot#readme",
   "dependencies": {
+    "@types/node": "^14.0.6",
     "discord.js": "^12.2.0",
     "typescript": "^3.9.3"
   }
