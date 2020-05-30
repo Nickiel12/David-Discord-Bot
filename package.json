@@ -1,0 +1,25 @@
+{
+  "name": "david-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "run",
+    "start": "tsc && node ./dist/index.js",
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nickiel12/David-Discord-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nickiel12/David-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/Nickiel12/David-Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "typescript": "^3.9.3"
+  }
+}
