@@ -11,7 +11,8 @@ client.on("ready", () => {
 client.on("message", (message) =>{
     if (["559618190573830154"].includes(message.channel.id)){
     message.attachments.array().forEach(element => {
-        console.log(element.attachment)
+        let attachment_url = element.attachment
+        console.log(attachment_url)
     });
 }
 })
