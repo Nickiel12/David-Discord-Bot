@@ -10,7 +10,8 @@ client.on("ready", () => {
 
 client.on("message", (message) =>{
     message.attachments.array().forEach(element => {
-        console.log(element.attachment)
+        let attachment_url = element.attachment
+        console.log(attachment_url)
     });
 })
 
